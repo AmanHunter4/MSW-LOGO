@@ -1,0 +1,107 @@
+body{
+   background-color: black;
+   color: white;
+   text-align: center;
+   font-weight: bolder; 
+   font-size: x-large;
+   font-style: italic;
+  
+}
+h1::after{
+animation: change 10s linear infinite;
+content: "New Shape Ideas for FMS LOGO";
+}
+@keyframes change{
+    0%{
+        color:whitesmoke;
+    }
+    10%{
+        color:blue ;
+    }
+    20%{
+        color:yellow ;
+    }
+    30%{
+        color: lime;
+    }
+    40%{
+        color:purple ;
+    }
+    50%{
+        color:springgreen ;
+    }
+    60%{
+        color:silver ;
+    }
+    70%{
+        color:orange ;
+    }
+    80%{
+        color:olive ;
+    }
+    90%{
+        color: lightblue;
+    }
+    100%{
+        color:magenta ;
+    }
+ 
+
+}
+a{
+    color: springgreen;
+    font-style: normal;
+    font-weight: 900;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+p{
+    text-align: center;
+    color: lime;
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+}
+footer{
+    text-align: center;
+    color: lime;
+    font-style: normal;
+   font-family: Arial, Helvetica, sans-serif;
+}
+footer::after{
+    animation: change 10s linear infinite;
+    content: "Made By:-Aman Malviya";
+    }
+    @keyframes change{
+        0%{
+            color:whitesmoke;
+        }
+        10%{
+            color:blue ;
+        }
+        20%{
+            color:yellow ;
+        }
+        30%{
+            color: lime;
+        }
+        40%{
+            color:purple ;
+        }
+        50%{
+            color:springgreen ;
+        }
+        60%{
+            color:silver ;
+        }
+        70%{
+            color:orange ;
+        }
+        80%{
+            color:olive ;
+        }
+        90%{
+            color: lightblue;
+        }
+        100%{
+            color:magenta ;
+        }
